@@ -1,0 +1,96 @@
+% Document class and font size
+\documentclass[a4paper,13pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+\textbf{\Large Motasem AL-Kayed}\\[2pt] % Name
+\href{mailto:mutasem_97@hotmail.com}{mutasem\_97@hotmail.com} | Amman, Jordan
+\end{center}
+
+% Experience Section
+\section*{WORK EXPERIENCE}
+% Club or Organization Experience
+\textbf{Erudyte} \hfill Jun 2022 - July 2023 % Club or organization name and location
+\begin{itemize}
+	\item A startup I co-founded with two of my friends, a website that offers computer science teachers tools to simplify the creation of automated tasks and exams, like generating test cases using a no-code visual test case builder and AI suggested grading with explanation for non-code questions.
+	\item The website includes students management, scheduling tasks and exams that students enter and solve on the website, ability to export marks and discussion forums, making the website the only tool a teacher needs.
+		
+\end{itemize}
+
+\noindent
+\textbf{Noon} \hfill Amman, Jordan(remote)\\ % Company name and location
+\textit{Software Development Engineer} \hfill Aug 2021 - Jan 2023 % Position and duration
+\begin{itemize}
+	\item Worked as a backend engineer for the ``noon food'' app(a food delivery app). My duty was mostly adding new and improving old features, most notable are: % Job responsibilities and achievements
+		\begin{itemize}
+			\item Added a recommendation section in the checkout page where a customer is suggested to add items based on his current cart.
+			\item Added bulk coupon feature, the ability to create a discount with thousands of single-use coupon codes.
+			\item Worked on upgrading the version of python for the backend, which included digging into an archived dependency to fix a bug caused by the upgrade.
+			\item Worked on migrating the backend of a similar app from java to python.
+		\end{itemize}
+\end{itemize}
+
+% Additional Experience or Volunteer Work
+\noindent
+\textbf{Mixed Dimensions} \hfill Amman, Jordan\\ % Project or organization name and location
+\textit{Software Engineer Intern} \hfill Jul – Sep 2018 % Position and duration
+\begin{itemize}
+    \item Worked with the R\&D team on algorithms for improving 3D printing software, some examples: % Responsibilities and achievements
+		\begin{itemize}
+			\item An algorithm that fixes holes in 3D models.
+			\item An algorithm that takes a 3D model's texture map and moves around the textures in order to reduce the total size of the image.
+		\end{itemize}
+\end{itemize}
+
+% Education Section
+\section*{EDUCATION}
+\noindent
+\textbf{Princess Sumaya University for Technology}, Amman, Jordan \hfill 2015 | 2022\\
+Bachelor in Computer Science
+
+% Projects Section
+\section*{SKILLS AND KNOWLEDGE}
+\noindent
+\textbf{Languages And Tools}
+\begin{itemize}
+	\item Languages: C, Go, Python, Typescript, Sql(mysql, postgresql).
+	\item Tools: Vue, Tailwind, Docker.
+\end{itemize}
+
+% Additional Project
+\noindent
+\textbf{Competitive Programming} % Project name and location
+\begin{itemize}
+	\item Participated in many online and onsite competitions, for more details: \url{https://codeforces.com/profile/Motarack}, \url{https://icpc.global/ICPCID/VTUYJI1AL1QK}.
+	\item Gave lectures in bootcamps for both school and university students.
+	\item Authored problems in many contests.
+\end{itemize}
+
+\noindent
+\textbf{Spoken Languages} % Project name and location
+\begin{itemize}
+	\item Arabic(native).
+	\item English(proficient).
+\end{itemize}
+
+% End document
+\end{document}
